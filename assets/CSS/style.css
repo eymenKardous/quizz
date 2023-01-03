@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-image: url(../IMG/fdquiz.jpg);
+}
+
+.question {
+    padding-bottom: 20px;
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    width: 230px;
+    margin-top: 20px;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input:hover {
+    background-color: skyblue;
+    font-size: 20px;
+}
+
+section {
+    font-size: 20px;
+}
+
+#reponses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score {
+    display: none;
+}
+
+#qr {
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+    display: none;
+    background-image: url(../IMG/fdecranquizz.webp);
+}
+
+#startGame {
+    margin: auto;
+    background-image: url(../IMG/fdecranquizz.webp);
+
+}
+
+#timer {
+    width: 230px;
+    background-color: white;
+    padding: auto;
+    margin: auto;
+    background-image: url(../IMG/fdecranquizz.webp);
+    border-radius: 10px;
+
+}
+
+#refresh {
+    margin: auto;
+    background-image: url(../IMG/fdecranquizz.webp);
+    margin-top: 20px;
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav class="navbar navbar-light bg-light" style="background-image: url(./assets/IMG/fdecranquizz.webp);">
+                <div class="container-fluid">
+                    <span class="navbar-text mx-auto">
+                        <h1>The FiveQuestionsQuizzzzz</h1>
+                    </span>
+                </div>
+                <span id="score">0</span>
+                <div class="mx-auto">Vous aurez droit à 5 questions sur 5 sujets différents. Bonne chance !!<br>
+                    Attention !! Vous n'aurez que 59 secondes pour répondre à l'entièreté du quiz !</div>
+            </nav>
+        </header>
+
+        <hr>
+
+        <div id="qr">
+            <section id="question">
+
+            </section>
+
+            <section id="reponses">
+                <input type="button" value="" onclick="reply(this)">
+                <input type="button" value="" onclick="reply(this)">
+                <input type="button" value="" onclick="reply(this)">
+                <input type="button" value="" onclick="reply(this)">
+            </section>
+        </div>
+
+        <input type="button" value="Let's start the game" id="startGame" onclick="display()">
+
+        <div id="timer"></div>
+
+        <input type="button" value="Ecran principal" id="refresh" onclick="newGame()">
+
+    </main>
+    <script src="./assets/JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
